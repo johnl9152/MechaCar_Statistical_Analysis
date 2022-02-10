@@ -24,6 +24,7 @@ In the MechaCar Suspension_Coil.csv dataset, the weight capacities of multiple s
 
 <img width="768" alt="Deliverable 2_Lot Summary" src="https://user-images.githubusercontent.com/92328984/153322508-b7138e0a-1299-4c52-8259-df6b16633887.png">
 In the above table, a lot summary table was created to show the suspension coil’s PSI continuous variable across all manufacturing lots.
+
 <img width="488" alt="Deliverable 2_Total Summary" src="https://user-images.githubusercontent.com/92328984/153322539-1eafd9ec-761a-4513-bb3e-50ce09b737b0.png">
 In the second table, a total summary table was created to show the following PSI metrics for each lot: mean, median, variance, and standard deviation.
 
@@ -32,3 +33,20 @@ In the second table, a total summary table was created to show the following PSI
 
 ## T-Tests on Suspension Coils
 T-tests were performed to determine if the PSI across all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch. Confidence intervals or p-values can be utilized to determine whether results are statistically significant. Given that the confidence interval is 95%, the significance level is 0.05%. A confidence interval outlines the upper and lower limit for the mean.
+
+<img width="777" alt="Deliverable 3_T Tests" src="https://user-images.githubusercontent.com/92328984/153326876-7641e636-bcd2-4fc6-9124-883df5da4adc.png">
+<img width="597" alt="Deliverable 3_T Tests_2" src="https://user-images.githubusercontent.com/92328984/153326894-a4b8bb11-8a0c-4dc6-88b3-2b2ac1be7e24.png">
+When the test is performed as a whole, the PSI was not far from the mean of 1,500 pounds per square inch, which the p-value is higher than the 0.05. The PSI for lots 1 and 2 aren't that different, therefore they are the better option for suspension. Lot 3 is below 0.05 p-value, giving it an easy option for MechaCar to reject this hypothesis.
+
+## Study Design: MechaCar vs Competition
+
+In this dataset, there is no specific mpg usage in a setting. Usually, many car companies talk about the car driven in either in the city or long-distance. There needs to be a study if the MechaCar is effective in the city or in the long drive setting.
+
+### Hypothesis
+Null Hypothesis: MechaCars’ vehicles perform equally as well as those from other manufacturers, when comparing fuel efficiency across various settings.
+Alternative Hypothesis: MechaCars’ vehicles does not perform equally as well as those from other manufacturers, when comparing fuel efficiency across various settings.
+
+### Statistical Test
+ANOVA will validate the hypothesis and determine whether the differences are statistically significant. In addition, boxplot will visualize the variability of the samples and the central tendency
+
+The test can be carried out through this design; however, as of right now, the sample size is significantly small to come up with the conclusion if the MechaCar is the best fuel efficient manufacturer across the competitive brands.
